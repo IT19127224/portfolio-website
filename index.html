@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/logo-icon.png" type="x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width=1.0">
+    <title>M.P.Naveen Deshan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f90947de3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- header section start-->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Naveen</span> <br> From SriLanka</h1>
+        </div>
+    </div>
+</div>
+<!-- header section end -->
+<!-- about section  start-->
+<div id="about">
+    <div class="contain">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/round.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m Dedicated and Realable information technology engineering graduate with excellent self learning 
+                    while expanding my knowledge to greater extends and always look forward to find interesting 
+                    opportunity.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Development</span><br>React, HTML5, CSS3, JavaScript</li>
+                        <li><span>Backend Development</span><br>NodeJS, MongoDB</li>
+                        <li><span>Designing</span><br>Adobe Design Tools, Blender, Unity</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Searching a Job Opportunity</li>
+                        <li><span>2022 - 2023</span><br>Game Developer at BlueChip Tech Asia</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Full Stack Development Course at University of Moratuwa</li>
+                        <li><span>2019-2023</span><br>BSc(Hons)information Technolgy Degree 
+                            Specialized by Interactive Media at SLIIT</li>
+                        <li><span>2019-2023</span><br>BSc(Hons)Palm and Latex Technology and Value Addition 
+                            Degree at Uva Wellassa University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about section end -->
+
+<!-- services section start -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend Development</h2>
+                <p>I have the expertise and skills necessary to create and maintain websites.I can design
+                new websites from scratch, or I can redesign existing websites. I work with clients to
+                understand their needs and goals, and then I design websites that meet those needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Backend Developement</h2>
+                <p>I  building and maintaining the server-side logic of websites and web applications. I use 
+                a variety of programming languages and tools to create websites that are both functional and 
+                scalable. I also work to ensure that websites are secure and reliable.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Designing</h2>
+                <p>I have the expertise and skills necessary to create visually appealing and functional 
+                designs. I familiar with the latest design trends and technologies, and they can help you 
+                to create a design that is both unique and effective.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- services section end -->
+<!-- portfolio section start -->
+
+<div id="portfolio">
+    <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Educa Education Website</h3>
+                    <p>Educa provide educational content and resources to users. This website can offer a 
+                    wide range of content, including courses, tutorials, articles, videos, and interactive 
+                    exercises.</p>
+                    <a href="https://github.com/IT19127224/Educational_Website-Educa.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>This portfolio website is a website that showcases your skills and experience. It can 
+                    be used to promote yourself to potential employers or clients, or to simply showcase 
+                    your work to the world.</p>
+                    <a href="https://mpnaveendeshan.w3spaces.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Web Shopping App</h3>
+                    <p>The app connect you to the talented people around the world.Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/IT19127224" class="btn">See more</a>
+    </div>
+</div>
+<!-- portfolio section end -->
+
+<!-- contact  section start -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="mailto:mpnaveendeshan@gmail.com" class="mail"><i class="fa-solid fa-paper-plane"></i>mpnaveendeshan@gmail.com</a></p>
+                <p><i class="fa-solid fa-square-phone"></i>078 888 0743</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/naveendeshan123/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/M.P.Naveen Deshan.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" id="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Naveen Deshan M.P.</p>
+    </div>
+</div>
+
+<!-- contact section end  -->
+<!-- script section start -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxp94bUtWWb9o1Rwt6OQd2Xug9XcxkDZ59cMQFDiirNBs1HwzRnGpg2Uc3psjSrqH04/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg  = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<!-- script section end -->
+</body>
+</html> 
